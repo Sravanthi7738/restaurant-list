@@ -10,8 +10,9 @@ function* fetchRestaurants(action) {
 }
 
 
-export default function *() {
+function* restaurantSaga() {
     yield all([
       takeEvery(FETCH_RESTAURANTS, fetchRestaurants),
     ]);
   }
+  export default restaurantSaga;
