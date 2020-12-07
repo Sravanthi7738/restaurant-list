@@ -24,7 +24,7 @@ export const FIELD_NAME = {
 export const TABLE_COLUMNS = [
     {field: FIELD_NAME.NAME, name: "Restaurant Name", searchable:true, filter: FILTER_TYPES.NONE, sort: SORT_TYPE.ASC},
     {field: FIELD_NAME.CITY,name: "City", searchable:true,filter: FILTER_TYPES.TEXT, sort: SORT_TYPE.NONE , sort: SORT_TYPE.ASC},
-    {field: FIELD_NAME.STATE, name:"State", searchable:true, filter: FILTER_TYPES.SELECT, sort: SORT_TYPE.NONE, getDisplayValue: (code) => {
+    {field: FIELD_NAME.STATE, name:"State", searchable:true, filter: FILTER_TYPES.SELECT, sort: SORT_TYPE.ASC, getDisplayValue: (code) => {
         return STATES[code]
     }},
     {field: FIELD_NAME.PHONE_NUMBER, name: "Phone Number", searchable:true, filter: FILTER_TYPES.NONE, sort: SORT_TYPE.NONE},
