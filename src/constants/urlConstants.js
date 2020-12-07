@@ -1,3 +1,3 @@
 export const URLS = {
-    RESTAURENTS: 'api/restaurants'
+    RESTAURENTS: 'https://code-challenge.spectrumtoolbox.com/api/restaurants'
 }
