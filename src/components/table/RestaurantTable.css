@@ -1,0 +1,126 @@
+
+.table_section{
+    height: 64vh;
+    display: block;
+    overflow: auto;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+select:disabled {
+    background-color:rgba(239, 239, 239, 0.3);
+    border: 1px solid #ddd;
+}
+th,
+td {
+    padding: 0.45rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+thead tr:first-child {
+    background: #eee;
+}
+thead th{
+    cursor: pointer;
+}
+img.sort_icon {
+    width: 10px;
+}
+.table-container {
+    padding: 20px;
+}
+.empty-result {
+    text-align: center;
+    border: none;
+}
+
+.search_box{
+    background-color: #eee;
+    border: 1px solid #cfcfcf;
+    border-bottom: 0;
+    padding: 8px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.search_box input.search{
+    border: 1px solid #ddd;
+    padding: 9px;
+    width: 200px;
+    outline: none;
+}
+.search_box .search_container {
+    width:400px;
+}
+.search_container .disable_filter {
+    margin-left: 10px;
+    
+}
+.search_box button{
+    background-color: #04ad04;
+    color: #fff;
+    border: 1px solid #04ad04;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+.search_box button:hover{
+    background-color: #059e05;
+    border: 1px solid #059e05;
+}
+.filter input, .filter select{
+    width: 100%;
+    padding: 6px;
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+input, select{
+    padding: 6px;
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.table_pagination {
+    padding: 8px;
+    border: 1px solid #cfcfcf;
+    border-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination{
+    display: inline-block;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > .active > a {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+}
+.pagination_drop_down {
+    display: inline;
+}
