@@ -1,5 +1,4 @@
 import { UPDATE_RESTAURANTS } from "../actions/restaurants";
-import { FIELD_NAME, SORT_TYPE } from "../constants/restaurrantsConstant";
 
 const initState = {
     isLoading: true,
